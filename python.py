@@ -2,11 +2,11 @@
 
 # This tutorial is for Python 3.X
 #
-# Python is a Scripted Language - Operates at runtime, line by line until it reaches an error
-# As opposed to compiled languages where they are compiled before being executed. 
+# Python is a Scripted Language which operates at runtime, line by line until it reaches an error or completes its operations
+# This is as opposed to compiled languages where they are compiled into a binary application.
 #
-# Execute with python3 python.py
-# Executing without the 3 will use python2.7x
+# Commands should be executed with the python3 command
+# Executing without the trailing 3 will use python 2.x
 #
 ###
 
@@ -18,19 +18,17 @@
 Multi-Line Comment
 '''
 
-'''
-
 # Print and Strings
 
-print('Hello World')
+print('Hello World') # Single Qoutes
 print("Double Quotes")
-print('Concat'+'enation')
-print('hello','there') # Adds a space, purpose is for combining strings and integers 
-print('I am',5)
+print('Concat'+'enation') # Merging two strings
+print('hello','there') # Adds a space, purpose is for combining strings and integers on the same line
 
 # Escape characters and using ' within a string
 
-print('I\'m 5') # Using \ to escape a character
+print('I am',5) # Print both the string and integer with a space inbetween
+print('I\'m 5') # Using \ to escape a character and allow for the ' to be printed to std out
 print("I'm 5") # Using Double quotes if you want to use single quote in the string
 print('He said "Hi"') # Using single quotes if you want to use double quotes in the string
 
@@ -40,7 +38,6 @@ print(1+3) # Addition
 print(1-3) # Subtraction
 print(1*3) # Multiplication
 print(1/3) # Division
-
 print(1.5/3.6) # Float
 print(4**2) # Exponents
 
@@ -54,18 +51,20 @@ exVar = 100
 opVar = exVar / 5.3
 print(opVar)
 
-_100ma = 5 # Moving Average Variable that begins with a number, prefaced with an underscore 
+_100ma = 5 # Moving Average Variable that begins with a number, prefaced with an underscore
 print(_100ma)
 
 # While Loop
 
 condition = 1
-while condition < 10: # The : is a standard to allow for tabbing on the next line, doesn't seem to work in subl. 
+while condition < 10: # The : is a standard to allow for tabbing on the next line
 	print(condition)
 	condition += 1
 	# Alternate: condition = condition+1
 
-while True:	# Infinite loop
+# Infinite loop
+
+while True:
 	print('infinity')
 
 # For Loops
@@ -77,7 +76,6 @@ for x in exampleList:
 for x in range (1,11):
 	print(X)
 
-'''
 # If statements
 
 x = 2
@@ -104,5 +102,3 @@ if x >= y:
 if z > y > x:
 	print(z,'is greater than',y,'which is greater than',x)
 
-
-	
