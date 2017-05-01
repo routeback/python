@@ -102,3 +102,41 @@ if x >= y:
 if z > y > x:
 	print(z,'is greater than',y,'which is greater than',x)
 
+# Elif statements
+
+x = 3
+y = 7
+z = 10
+
+if x > y:
+	print(x,'is greater than',y)
+elif x < z:
+	print(x,'is less than',z)
+elif y < z:
+	print(y,'is less than',z)
+break
+else:
+	print('nothing was the case')
+
+# Break Causes the script to exit the current loop :
+
+# Else statements
+
+x = 13 
+y = 6
+
+if x < y:
+	print(x,'is less than', y)
+if x > y:
+	print(x,'is greater than',y)
+else: 
+	print(x,'is not less than',y)
+
+
+# The else statement will only be used if the immediately previous if statement is false
+
+
+# if elif else statements
+
+# Elifs will only run if the previous ifs or elifs were false and did not run
+
